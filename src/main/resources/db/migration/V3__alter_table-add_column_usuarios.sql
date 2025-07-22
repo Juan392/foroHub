@@ -1,0 +1,2 @@
+ALTER TABLE usuarios
+ADD COLUMN status TINYINT DEFAULT 1;

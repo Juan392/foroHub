@@ -1,0 +1,9 @@
+CREATE TABLE topicos(
+id BIGINT PRIMARY KEY AUTO_INCREMENT,
+titulo VARCHAR(100),
+mensaje VARCHAR(100),
+fecha_de_creacion DATETIME,
+status TINYINT DEFAULT 1 ,
+autor VARCHAR(100),
+curso VARCHAR(30)
+);

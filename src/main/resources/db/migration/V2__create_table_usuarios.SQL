@@ -1,0 +1,5 @@
+CREATE TABLE usuarios(
+id INT PRIMARY KEY AUTO_INCREMENT,
+login VARCHAR(30),
+contrasena VARCHAR(250)
+);
